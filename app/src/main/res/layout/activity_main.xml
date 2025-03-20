@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Contenedor para los botones -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Contenedor principal para CardView o ExpandableListView -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Botón para ExpandableListView -->
+    <Button
+        android:id="@+id/btnExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Propiedades de ExpandableListView" />
+
+    <!-- Botón para CardView -->
+    <Button
+        android:id="@+id/btnCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Propiedades de CardView" />
+
+</LinearLayout>
